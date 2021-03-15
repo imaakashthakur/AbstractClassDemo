@@ -7,5 +7,5 @@ public abstract class MobilePhoneV2 extends MobilePhoneV1{
     }
 
     public abstract void sendMms(); //for Future Version
-    public abstract void clickPhotos(); ////for Future Version
+    public abstract void clickPhotos(); //for Future Version
 }
