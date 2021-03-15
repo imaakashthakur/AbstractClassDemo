@@ -1,9 +1,9 @@
 package wwe;
 
 public abstract class WrestleMania {
-    int perHourWage = 1200;
-    public void payByHour(int hours){
-        System.out.println("The Payment by hour is: " + (hours * perHourWage));
+    static final int PERHOURPAY = 1200;
+    public void salary(int hours){
+        System.out.println("The Payment by hour is: " + (hours * PERHOURPAY));
     }
     public abstract String entryMusic();
 }
